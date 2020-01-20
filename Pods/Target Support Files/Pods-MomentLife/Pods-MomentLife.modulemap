@@ -1,0 +1,6 @@
+module Pods_MomentLife {
+  umbrella header "Pods-MomentLife-umbrella.h"
+
+  export *
+  module * { export * }
+}

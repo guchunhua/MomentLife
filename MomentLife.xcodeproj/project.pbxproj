@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E6A4C00F6CF460252720E0C /* libPods-MomentLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AF3FB3F6605FB762585244 /* libPods-MomentLife.a */; };
+		A9154D3523CF705F00802FF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9154D3423CF705F00802FF5 /* AppDelegate.m */; };
+		A9154D3E23CF705F00802FF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9154D3C23CF705F00802FF5 /* Main.storyboard */; };
+		A9154D4023CF706000802FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9154D3F23CF706000802FF5 /* Assets.xcassets */; };
+		A9154D4323CF706000802FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9154D4123CF706000802FF5 /* LaunchScreen.storyboard */; };
+		A9154D4623CF706000802FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9154D4523CF706000802FF5 /* main.m */; };
+		A9154D5023CF706000802FF5 /* MomentLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9154D4F23CF706000802FF5 /* MomentLifeTests.m */; };
+		A9154D5B23CF706000802FF5 /* MomentLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9154D5A23CF706000802FF5 /* MomentLifeUITests.m */; };
+		A9A3E38923D35EBC0092BB7C /* ZYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A3E38823D35EBC0092BB7C /* ZYHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9154D4C23CF706000802FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9154D2823CF705F00802FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9154D2F23CF705F00802FF5;
+			remoteInfo = MomentLife;
+		};
+		A9154D5723CF706000802FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9154D2823CF705F00802FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9154D2F23CF705F00802FF5;
+			remoteInfo = MomentLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20AF3FB3F6605FB762585244 /* libPods-MomentLife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MomentLife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6A51BC908C632593D6AAFC /* Pods-MomentLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentLife.debug.xcconfig"; path = "Target Support Files/Pods-MomentLife/Pods-MomentLife.debug.xcconfig"; sourceTree = "<group>"; };
+		8A8B53517B7D205D7086EF2D /* Pods-MomentLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentLife.release.xcconfig"; path = "Target Support Files/Pods-MomentLife/Pods-MomentLife.release.xcconfig"; sourceTree = "<group>"; };
+		A9154D3023CF705F00802FF5 /* MomentLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomentLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9154D3323CF705F00802FF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9154D3423CF705F00802FF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9154D3D23CF705F00802FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9154D3F23CF706000802FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9154D4223CF706000802FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9154D4423CF706000802FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9154D4523CF706000802FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9154D4B23CF706000802FF5 /* MomentLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9154D4F23CF706000802FF5 /* MomentLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentLifeTests.m; sourceTree = "<group>"; };
+		A9154D5123CF706000802FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9154D5623CF706000802FF5 /* MomentLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9154D5A23CF706000802FF5 /* MomentLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentLifeUITests.m; sourceTree = "<group>"; };
+		A9154D5C23CF706000802FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A3E38723D35EBC0092BB7C /* ZYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHomeViewController.h; sourceTree = "<group>"; };
+		A9A3E38823D35EBC0092BB7C /* ZYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHomeViewController.m; sourceTree = "<group>"; };
+		A9A3E38A23D3617C0092BB7C /* ZYPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9154D2D23CF705F00802FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6A4C00F6CF460252720E0C /* libPods-MomentLife.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9154D4823CF706000802FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9154D5323CF706000802FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A7F4AD058604023CAD1567 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E6A51BC908C632593D6AAFC /* Pods-MomentLife.debug.xcconfig */,
+				8A8B53517B7D205D7086EF2D /* Pods-MomentLife.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9154D2723CF705F00802FF5 = {
+			isa = PBXGroup;
+			children = (
+				A9154D3223CF705F00802FF5 /* MomentLife */,
+				A9154D4E23CF706000802FF5 /* MomentLifeTests */,
+				A9154D5923CF706000802FF5 /* MomentLifeUITests */,
+				A9154D3123CF705F00802FF5 /* Products */,
+				32A7F4AD058604023CAD1567 /* Pods */,
+				AB0801D3179B922B9577011B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9154D3123CF705F00802FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9154D3023CF705F00802FF5 /* MomentLife.app */,
+				A9154D4B23CF706000802FF5 /* MomentLifeTests.xctest */,
+				A9154D5623CF706000802FF5 /* MomentLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9154D3223CF705F00802FF5 /* MomentLife */ = {
+			isa = PBXGroup;
+			children = (
+				A9A3E38523D35DEC0092BB7C /* Module */,
+				A9A3E38223D357D30092BB7C /* Util */,
+				A9A3E38323D357EE0092BB7C /* Common */,
+				A9A3E38423D35DC60092BB7C /* Other */,
+				A9154D3323CF705F00802FF5 /* AppDelegate.h */,
+				A9154D3423CF705F00802FF5 /* AppDelegate.m */,
+			);
+			path = MomentLife;
+			sourceTree = "<group>";
+		};
+		A9154D4E23CF706000802FF5 /* MomentLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9154D4F23CF706000802FF5 /* MomentLifeTests.m */,
+				A9154D5123CF706000802FF5 /* Info.plist */,
+			);
+			path = MomentLifeTests;
+			sourceTree = "<group>";
+		};
+		A9154D5923CF706000802FF5 /* MomentLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9154D5A23CF706000802FF5 /* MomentLifeUITests.m */,
+				A9154D5C23CF706000802FF5 /* Info.plist */,
+			);
+			path = MomentLifeUITests;
+			sourceTree = "<group>";
+		};
+		A9A3E38223D357D30092BB7C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A9A3E38323D357EE0092BB7C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A9A3E38423D35DC60092BB7C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A9154D3C23CF705F00802FF5 /* Main.storyboard */,
+				A9154D3F23CF706000802FF5 /* Assets.xcassets */,
+				A9154D4123CF706000802FF5 /* LaunchScreen.storyboard */,
+				A9154D4423CF706000802FF5 /* Info.plist */,
+				A9154D4523CF706000802FF5 /* main.m */,
+				A9A3E38A23D3617C0092BB7C /* ZYPrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A9A3E38523D35DEC0092BB7C /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A9A3E38623D35E890092BB7C /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A9A3E38623D35E890092BB7C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A9A3E38723D35EBC0092BB7C /* ZYHomeViewController.h */,
+				A9A3E38823D35EBC0092BB7C /* ZYHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AB0801D3179B922B9577011B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20AF3FB3F6605FB762585244 /* libPods-MomentLife.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9154D2F23CF705F00802FF5 /* MomentLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9154D5F23CF706000802FF5 /* Build configuration list for PBXNativeTarget "MomentLife" */;
+			buildPhases = (
+				2CCA128BCDF5F787FFBF34E7 /* [CP] Check Pods Manifest.lock */,
+				A9154D2C23CF705F00802FF5 /* Sources */,
+				A9154D2D23CF705F00802FF5 /* Frameworks */,
+				A9154D2E23CF705F00802FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentLife;
+			productName = MomentLife;
+			productReference = A9154D3023CF705F00802FF5 /* MomentLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9154D4A23CF706000802FF5 /* MomentLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9154D6223CF706000802FF5 /* Build configuration list for PBXNativeTarget "MomentLifeTests" */;
+			buildPhases = (
+				A9154D4723CF706000802FF5 /* Sources */,
+				A9154D4823CF706000802FF5 /* Frameworks */,
+				A9154D4923CF706000802FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9154D4D23CF706000802FF5 /* PBXTargetDependency */,
+			);
+			name = MomentLifeTests;
+			productName = MomentLifeTests;
+			productReference = A9154D4B23CF706000802FF5 /* MomentLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9154D5523CF706000802FF5 /* MomentLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9154D6523CF706000802FF5 /* Build configuration list for PBXNativeTarget "MomentLifeUITests" */;
+			buildPhases = (
+				A9154D5223CF706000802FF5 /* Sources */,
+				A9154D5323CF706000802FF5 /* Frameworks */,
+				A9154D5423CF706000802FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9154D5823CF706000802FF5 /* PBXTargetDependency */,
+			);
+			name = MomentLifeUITests;
+			productName = MomentLifeUITests;
+			productReference = A9154D5623CF706000802FF5 /* MomentLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9154D2823CF705F00802FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = leslie;
+				TargetAttributes = {
+					A9154D2F23CF705F00802FF5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					A9154D4A23CF706000802FF5 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = A9154D2F23CF705F00802FF5;
+					};
+					A9154D5523CF706000802FF5 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = A9154D2F23CF705F00802FF5;
+					};
+				};
+			};
+			buildConfigurationList = A9154D2B23CF705F00802FF5 /* Build configuration list for PBXProject "MomentLife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9154D2723CF705F00802FF5;
+			productRefGroup = A9154D3123CF705F00802FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9154D2F23CF705F00802FF5 /* MomentLife */,
+				A9154D4A23CF706000802FF5 /* MomentLifeTests */,
+				A9154D5523CF706000802FF5 /* MomentLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9154D2E23CF705F00802FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9154D4323CF706000802FF5 /* LaunchScreen.storyboard in Resources */,
+				A9154D4023CF706000802FF5 /* Assets.xcassets in Resources */,
+				A9154D3E23CF705F00802FF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9154D4923CF706000802FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9154D5423CF706000802FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CCA128BCDF5F787FFBF34E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MomentLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9154D2C23CF705F00802FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9154D3523CF705F00802FF5 /* AppDelegate.m in Sources */,
+				A9A3E38923D35EBC0092BB7C /* ZYHomeViewController.m in Sources */,
+				A9154D4623CF706000802FF5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9154D4723CF706000802FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9154D5023CF706000802FF5 /* MomentLifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9154D5223CF706000802FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9154D5B23CF706000802FF5 /* MomentLifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9154D4D23CF706000802FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9154D2F23CF705F00802FF5 /* MomentLife */;
+			targetProxy = A9154D4C23CF706000802FF5 /* PBXContainerItemProxy */;
+		};
+		A9154D5823CF706000802FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9154D2F23CF705F00802FF5 /* MomentLife */;
+			targetProxy = A9154D5723CF706000802FF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9154D3C23CF705F00802FF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9154D3D23CF705F00802FF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9154D4123CF706000802FF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9154D4223CF706000802FF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9154D5D23CF706000802FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9154D5E23CF706000802FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9154D6023CF706000802FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6A51BC908C632593D6AAFC /* Pods-MomentLife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CL3TTQ77R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/jfdy/Desktop/MomentLife/MomentLife/Other/ZYPrefixHeader.pch;
+				INFOPLIST_FILE = MomentLife/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Leslie.MomentLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = /Users/jfdy/Desktop/MomentLife/MomentLife/Other/ZYPrefixHeader.pch;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9154D6123CF706000802FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8B53517B7D205D7086EF2D /* Pods-MomentLife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CL3TTQ77R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/jfdy/Desktop/MomentLife/MomentLife/Other/ZYPrefixHeader.pch;
+				INFOPLIST_FILE = MomentLife/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Leslie.MomentLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = /Users/jfdy/Desktop/MomentLife/MomentLife/Other/ZYPrefixHeader.pch;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9154D6323CF706000802FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CL3TTQ77R;
+				INFOPLIST_FILE = MomentLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Leslie.MomentLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MomentLife.app/MomentLife";
+			};
+			name = Debug;
+		};
+		A9154D6423CF706000802FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CL3TTQ77R;
+				INFOPLIST_FILE = MomentLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Leslie.MomentLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MomentLife.app/MomentLife";
+			};
+			name = Release;
+		};
+		A9154D6623CF706000802FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CL3TTQ77R;
+				INFOPLIST_FILE = MomentLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Leslie.MomentLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MomentLife;
+			};
+			name = Debug;
+		};
+		A9154D6723CF706000802FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CL3TTQ77R;
+				INFOPLIST_FILE = MomentLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Leslie.MomentLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MomentLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9154D2B23CF705F00802FF5 /* Build configuration list for PBXProject "MomentLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9154D5D23CF706000802FF5 /* Debug */,
+				A9154D5E23CF706000802FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9154D5F23CF706000802FF5 /* Build configuration list for PBXNativeTarget "MomentLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9154D6023CF706000802FF5 /* Debug */,
+				A9154D6123CF706000802FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9154D6223CF706000802FF5 /* Build configuration list for PBXNativeTarget "MomentLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9154D6323CF706000802FF5 /* Debug */,
+				A9154D6423CF706000802FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9154D6523CF706000802FF5 /* Build configuration list for PBXNativeTarget "MomentLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9154D6623CF706000802FF5 /* Debug */,
+				A9154D6723CF706000802FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9154D2823CF705F00802FF5 /* Project object */;
+}
