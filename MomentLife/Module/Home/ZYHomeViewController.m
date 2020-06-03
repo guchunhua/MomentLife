@@ -17,19 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.view mas_updateConstraints:^(MASConstraintMaker *make) {
-        NSLog(@"test1");
-        NSLog(@"test3");
-        NSLog(@"test4");
-        NSLog(@"test7");
-        NSLog(@"test6");
-        NSLog(@"test8");
-        NSLog(@"test9"):
-        NSLog(@"test9");
-    }];
-    
-    NSLog(@"test2");
-    NSLog(@"test5");
+  
 }
 
 @end
