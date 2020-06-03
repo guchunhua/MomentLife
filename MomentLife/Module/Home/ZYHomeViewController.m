@@ -23,6 +23,7 @@
     }];
     
     NSLog(@"test2");
+    NSLog(@"test5");
 }
 
 @end
