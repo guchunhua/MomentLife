@@ -20,6 +20,8 @@
     [self.view mas_updateConstraints:^(MASConstraintMaker *make) {
         
     }];
+    
+    NSLog(@"test2");
 }
 
 @end
