@@ -25,6 +25,7 @@
         NSLog(@"test6");
         NSLog(@"test8");
         NSLog(@"test9"):
+        NSLog(@"test9");
     }];
     
     NSLog(@"test2");
