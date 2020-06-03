@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view.
     [self.view mas_updateConstraints:^(MASConstraintMaker *make) {
         NSLog(@"test1");
+        NSLog(@"test3");
     }];
 }
 
