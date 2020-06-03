@@ -527,7 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6CL3TTQ77R;
+				DEVELOPMENT_TEAM = 736BUSFPBS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/jfdy/Desktop/MomentLife/MomentLife/Other/ZYPrefixHeader.pch;
 				INFOPLIST_FILE = MomentLife/Other/Info.plist;
@@ -549,7 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6CL3TTQ77R;
+				DEVELOPMENT_TEAM = 736BUSFPBS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/jfdy/Desktop/MomentLife/MomentLife/Other/ZYPrefixHeader.pch;
 				INFOPLIST_FILE = MomentLife/Other/Info.plist;
